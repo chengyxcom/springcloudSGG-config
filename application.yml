@@ -1,14 +1,14 @@
-﻿spring: 
-    profiles: 
-        active: 
+﻿spring:
+    profiles:
+      active:
         - dev
 ---
 spring:
-    profiles: dev
-        application: 
-            name: springcloudSGG-config-cyx-dev
+  profiles: dev
+  application:
+    name: springcloudSGG-config-cyx-dev
 ---
 spring:
-    profiles: test
-        application: 
-            name: springcloudSGG-config-cyx-test
+  profiles: test
+  application:
+    name: springcloudSGG-config-cyx-test
